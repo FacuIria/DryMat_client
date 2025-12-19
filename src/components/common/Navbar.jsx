@@ -5,15 +5,9 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <div className="navbar-logo">
-          {/* Espacio reservado para logo futuro */}
-          <div className="logo-placeholder">
-            {/* <img src="/logo.png" alt="DryMat Logo" /> */}
-          </div>
-          <Link to="/" className="navbar-brand">
-            <h1>DryMat</h1>
-          </Link>
-        </div>
+        <Link to="/" className="navbar-logo">
+          <img src="/assets/DM_Logo_DryMat_Transparent.png" alt="Logo DryMat" style={{height: '100px'}} />
+        </Link>
       </div>
     </nav>
   );
