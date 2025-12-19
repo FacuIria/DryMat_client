@@ -43,12 +43,12 @@ const Footer = () => {
           <h3>Contacto</h3>
           <ul className="footer-contact">
             <li>
-              <a href="mailto:contacto@drymat.com.ar">
+              <a href="mailto:Drymatsoluciones@gmail.com">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <rect x="2" y="4" width="20" height="16" rx="2"/>
                   <path d="m2 7 10 6 10-6"/>
                 </svg>
-                contacto@drymat.com.ar
+                Drymatsoluciones@gmail.com
               </a>
             </li>
             <li>
