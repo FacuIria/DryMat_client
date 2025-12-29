@@ -151,9 +151,15 @@
   transition: background 0.3s;
 }
 
+
 .btn-contacto:hover {
-  background: #5a8b6d;
+  background: var(--green-hover);
+  color: white;              /* ← ESTA ES LA CLAVE */
+  transform: translateY(-1px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
 }
+
+
 
 @media (max-width: 768px) {
   .hero-section h1 {
